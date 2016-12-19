@@ -12,6 +12,9 @@
 		D6C1900F1E07815B004C075D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C1900D1E07815B004C075D /* Main.storyboard */; };
 		D6C190111E07815B004C075D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6C190101E07815B004C075D /* Assets.xcassets */; };
 		D6C190141E07815B004C075D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6C190121E07815B004C075D /* LaunchScreen.storyboard */; };
+		D6C1901C1E078192004C075D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1901B1E078192004C075D /* RootViewController.swift */; };
+		D6C1901E1E0786D0004C075D /* myHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C1901D1E0786D0004C075D /* myHUD.swift */; };
+		D6C190241E07B607004C075D /* tick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6C190231E07B607004C075D /* tick.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		D6C190101E07815B004C075D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6C190131E07815B004C075D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6C190151E07815B004C075D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6C1901B1E078192004C075D /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D6C1901D1E0786D0004C075D /* myHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myHUD.swift; sourceTree = "<group>"; };
+		D6C190231E07B607004C075D /* tick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tick.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,10 @@
 		D6C190081E07815B004C075D /* Activity */ = {
 			isa = PBXGroup;
 			children = (
+				D6C190231E07B607004C075D /* tick.jpg */,
 				D6C190091E07815B004C075D /* AppDelegate.swift */,
+				D6C1901B1E078192004C075D /* RootViewController.swift */,
+				D6C1901D1E0786D0004C075D /* myHUD.swift */,
 				D6C1900B1E07815B004C075D /* ViewController.swift */,
 				D6C1900D1E07815B004C075D /* Main.storyboard */,
 				D6C190101E07815B004C075D /* Assets.xcassets */,
@@ -126,6 +135,7 @@
 			files = (
 				D6C190141E07815B004C075D /* LaunchScreen.storyboard in Resources */,
 				D6C190111E07815B004C075D /* Assets.xcassets in Resources */,
+				D6C190241E07B607004C075D /* tick.jpg in Resources */,
 				D6C1900F1E07815B004C075D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6C1900C1E07815B004C075D /* ViewController.swift in Sources */,
+				D6C1901E1E0786D0004C075D /* myHUD.swift in Sources */,
 				D6C1900A1E07815B004C075D /* AppDelegate.swift in Sources */,
+				D6C1901C1E078192004C075D /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
